@@ -1,0 +1,79 @@
+2022-04-01 10:35:01.564 +02:00 [INF] Application is starting
+2022-04-01 10:35:08.836 +02:00 [INF] Application is starting
+2022-04-01 10:35:09.242 +02:00 [INF] Now listening on: https://localhost:5001
+2022-04-01 10:35:09.245 +02:00 [INF] Now listening on: http://localhost:5000
+2022-04-01 10:35:09.245 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-01 10:35:09.245 +02:00 [INF] Hosting environment: Development
+2022-04-01 10:35:09.245 +02:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-04-01 10:35:15.834 +02:00 [INF] Application is shutting down...
+2022-04-01 10:35:18.053 +02:00 [INF] Application is starting
+2022-04-01 10:35:19.471 +02:00 [INF] Now listening on: https://localhost:5001
+2022-04-01 10:35:19.474 +02:00 [INF] Now listening on: http://localhost:5000
+2022-04-01 10:35:19.474 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-01 10:35:19.474 +02:00 [INF] Hosting environment: Development
+2022-04-01 10:35:19.474 +02:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-04-01 10:37:11.222 +02:00 [INF] Application is starting
+2022-04-01 10:37:12.596 +02:00 [INF] Now listening on: https://localhost:5001
+2022-04-01 10:37:12.599 +02:00 [INF] Now listening on: http://localhost:5000
+2022-04-01 10:37:12.599 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-01 10:37:12.599 +02:00 [INF] Hosting environment: Development
+2022-04-01 10:37:12.599 +02:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-04-01 10:37:40.398 +02:00 [INF] Application is starting
+2022-04-01 10:37:40.769 +02:00 [INF] Now listening on: https://localhost:5001
+2022-04-01 10:37:40.772 +02:00 [INF] Now listening on: http://localhost:5000
+2022-04-01 10:37:40.772 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-01 10:37:40.772 +02:00 [INF] Hosting environment: Development
+2022-04-01 10:37:40.772 +02:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-04-01 10:38:21.283 +02:00 [INF] Application is shutting down...
+2022-04-01 10:38:23.571 +02:00 [INF] Application is starting
+2022-04-01 10:38:23.903 +02:00 [INF] Now listening on: https://localhost:5001
+2022-04-01 10:38:23.905 +02:00 [INF] Now listening on: http://localhost:5000
+2022-04-01 10:38:23.905 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-01 10:38:23.905 +02:00 [INF] Hosting environment: Development
+2022-04-01 10:38:23.905 +02:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-04-01 10:38:27.266 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2022-04-01 10:38:27.346 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 84.9725ms
+2022-04-01 10:38:36.871 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2022-04-01 10:38:36.920 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 307 0 - 49.4108ms
+2022-04-01 10:38:36.924 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2022-04-01 10:38:36.925 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 0.9016ms
+2022-04-01 10:38:43.306 +02:00 [INF] Application is shutting down...
+2022-04-01 10:38:45.435 +02:00 [INF] Application is starting
+2022-04-01 10:38:45.779 +02:00 [INF] Now listening on: https://localhost:5001
+2022-04-01 10:38:45.783 +02:00 [INF] Now listening on: http://localhost:5000
+2022-04-01 10:38:45.783 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-01 10:38:45.783 +02:00 [INF] Hosting environment: Development
+2022-04-01 10:38:45.783 +02:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-04-01 10:38:46.452 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2022-04-01 10:38:46.486 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 36.8922ms
+2022-04-01 10:38:46.492 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-04-01 10:38:46.566 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 73.9718ms
+2022-04-01 10:38:46.578 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2022-04-01 10:38:46.581 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2022-04-01 10:38:46.581 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2022-04-01 10:38:46.612 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-04-01 10:38:46.614 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 142933 text/css 36.2107ms
+2022-04-01 10:38:46.615 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-01 10:38:46.615 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 34.4198ms
+2022-04-01 10:38:46.619 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2022-04-01 10:38:46.622 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-04-01 10:38:46.623 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 2.9246ms
+2022-04-01 10:38:46.640 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-01 10:38:46.640 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 59.8156ms
+2022-04-01 10:38:46.657 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2022-04-01 10:38:46.662 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-04-01 10:38:46.662 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 4.9700ms
+2022-04-01 10:38:46.826 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-04-01 10:38:46.854 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2022-04-01 10:38:46.854 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-04-01 10:38:46.855 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 0.5674ms
+2022-04-01 10:38:46.900 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.8016ms
+2022-04-01 10:38:59.318 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2022-04-01 10:38:59.341 +02:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 23.2020ms
+2022-04-01 10:39:32.880 +02:00 [INF] Application is shutting down...
+2022-04-01 10:39:35.230 +02:00 [INF] Application is starting
+2022-04-01 10:39:35.630 +02:00 [INF] Now listening on: https://localhost:5001
+2022-04-01 10:39:35.633 +02:00 [INF] Now listening on: http://localhost:5000
+2022-04-01 10:39:35.633 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-01 10:39:35.633 +02:00 [INF] Hosting environment: Development
+2022-04-01 10:39:35.633 +02:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing

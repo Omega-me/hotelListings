@@ -1,0 +1,56 @@
+2022-03-11 14:40:01.881 +01:00 [INF] Application is starting
+2022-03-11 14:40:02.264 +01:00 [INF] Now listening on: https://localhost:5001
+2022-03-11 14:40:02.267 +01:00 [INF] Now listening on: http://localhost:5000
+2022-03-11 14:40:02.267 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-11 14:40:02.268 +01:00 [INF] Hosting environment: Development
+2022-03-11 14:40:02.268 +01:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-03-11 14:40:24.843 +01:00 [INF] Application is shutting down...
+2022-03-11 14:44:48.249 +01:00 [INF] Application is starting
+2022-03-11 14:44:48.630 +01:00 [INF] Now listening on: https://localhost:5001
+2022-03-11 14:44:48.633 +01:00 [INF] Now listening on: http://localhost:5000
+2022-03-11 14:44:48.633 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-11 14:44:48.633 +01:00 [INF] Hosting environment: Development
+2022-03-11 14:44:48.633 +01:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-03-11 14:47:01.014 +01:00 [INF] Application is shutting down...
+2022-03-11 14:48:17.266 +01:00 [INF] Application is starting
+2022-03-11 14:48:17.745 +01:00 [INF] Now listening on: https://localhost:5001
+2022-03-11 14:48:17.748 +01:00 [INF] Now listening on: http://localhost:5000
+2022-03-11 14:48:17.748 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-11 14:48:17.748 +01:00 [INF] Hosting environment: Development
+2022-03-11 14:48:17.748 +01:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-03-11 14:48:27.037 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-03-11 14:48:27.121 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 86.2075ms
+2022-03-11 14:48:27.389 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-03-11 14:48:27.455 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.4764ms
+2022-03-11 15:44:02.106 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2022-03-11 15:44:02.112 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 6.9425ms
+2022-03-11 15:44:02.398 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2022-03-11 15:44:02.405 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.8358ms
+2022-03-11 15:44:06.394 +01:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2022-03-11 15:44:06.434 +01:00 [INF] Executing endpoint 'HotelListing.Controllers.WeatherForecastController.Get (HotelListing)'
+2022-03-11 15:44:06.461 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelListing.WeatherForecast] Get() on controller HotelListing.Controllers.WeatherForecastController (HotelListing).
+2022-03-11 15:44:06.469 +01:00 [INF] Executing ObjectResult, writing value of type 'HotelListing.WeatherForecast[]'.
+2022-03-11 15:44:06.488 +01:00 [INF] Executed action HotelListing.Controllers.WeatherForecastController.Get (HotelListing) in 21.6441ms
+2022-03-11 15:44:06.489 +01:00 [INF] Executed endpoint 'HotelListing.Controllers.WeatherForecastController.Get (HotelListing)'
+2022-03-11 15:44:06.489 +01:00 [INF] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 94.7753ms
+2022-03-11 17:35:56.239 +01:00 [INF] Application is shutting down...
+2022-03-11 17:35:58.670 +01:00 [INF] Application is starting
+2022-03-11 17:35:59.036 +01:00 [INF] Now listening on: https://localhost:5001
+2022-03-11 17:35:59.038 +01:00 [INF] Now listening on: http://localhost:5000
+2022-03-11 17:35:59.038 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-11 17:35:59.039 +01:00 [INF] Hosting environment: Development
+2022-03-11 17:35:59.039 +01:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-03-11 17:36:59.135 +01:00 [INF] Application is shutting down...
+2022-03-11 17:37:00.432 +01:00 [INF] Application is starting
+2022-03-11 17:37:00.777 +01:00 [INF] Now listening on: https://localhost:5001
+2022-03-11 17:37:00.780 +01:00 [INF] Now listening on: http://localhost:5000
+2022-03-11 17:37:00.780 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-11 17:37:00.780 +01:00 [INF] Hosting environment: Development
+2022-03-11 17:37:00.780 +01:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
+2022-03-11 17:37:30.839 +01:00 [INF] Application is shutting down...
+2022-03-11 17:37:32.165 +01:00 [INF] Application is starting
+2022-03-11 17:37:32.509 +01:00 [INF] Now listening on: https://localhost:5001
+2022-03-11 17:37:32.511 +01:00 [INF] Now listening on: http://localhost:5000
+2022-03-11 17:37:32.511 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-11 17:37:32.511 +01:00 [INF] Hosting environment: Development
+2022-03-11 17:37:32.511 +01:00 [INF] Content root path: C:\Users\User\Desktop\Mine\Project\HotelListing
