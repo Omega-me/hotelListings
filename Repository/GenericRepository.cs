@@ -14,45 +14,31 @@ namespace HotelListing.Repository
         private readonly DatabaseContext _context;
         private readonly DbSet<T> _db;
 
-        public GenericRepository(DatabaseContext context)
-        {
+        public GenericRepository(DatabaseContext context) {
             _context = context;
             _db = _context.Set<T>();
         }
-
-        public async Task<IList<T>> GetAll(Expression<Func<T, bool>> expression = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, List<string> includes = null)
-        {
+        
+        public async Task<IList<T>> GetAll(Expression<Func<T, bool>> expression = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, List<string> includes = null) {
             IQueryable<T> query = _db;
-            
-            if (expression != null)
-            {
+            if (expression != null) {
                 query = query.Where(expression);
             }
-            
-            if (includes != null)
-            {
-                foreach (var includeProperty in includes)
-                {
+            if (includes != null) {
+                foreach (var includeProperty in includes) {
                     query = query.Include(includeProperty);
                 }
             }
-            
-            if (orderBy != null)
-            {
+            if (orderBy != null) {
                 query = orderBy(query);
             }
-            
             return await query.AsNoTracking().ToListAsync();
         }
 
-        public async Task<T> Get(Expression<Func<T, bool>> expression, List<string> includes = null)
-        {
+        public async Task<T> Get(Expression<Func<T, bool>> expression, List<string> includes = null) {
             IQueryable<T> query = _db;
-            
-            if (includes != null)
-            {
-                foreach (var includeProperty in includes)
-                {
+            if (includes != null) {
+                foreach (var includeProperty in includes) {
                     query = query.Include(includeProperty);
                 }
             }
@@ -60,29 +46,24 @@ namespace HotelListing.Repository
             return await query.AsNoTracking().FirstOrDefaultAsync(expression);
         }
 
-        public async Task Insert(T entity)
-        {
+        public async Task Insert(T entity) {
             await _db.AddAsync(entity);
         }
 
-        public async Task InsertRange(IEnumerable<T> enitites)
-        {
+        public async Task InsertRange(IEnumerable<T> enitites) {
             await _db.AddRangeAsync(enitites);
         }
 
-        public async Task Delete(int id)
-        {
+        public async Task Delete(int id) {
             var entity =await _db.FindAsync(id);
             _db.Remove(entity);
         }
 
-        public void DeleteRange(IEnumerable<T> enitites)
-        {
+        public void DeleteRange(IEnumerable<T> enitites) {
             _db.RemoveRange(enitites);
         }
 
-        public void Update(T entity)
-        {
+        public void Update(T entity) {
             _db.Attach(entity);
             _context.Entry(entity).State = EntityState.Modified;
         }

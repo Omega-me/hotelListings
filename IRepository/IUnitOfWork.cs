@@ -8,6 +8,7 @@ namespace HotelListing.IRepository
     {
         IGenericRepository<Country> Countries { get; }
         IGenericRepository<Hotel> Hotels { get; }
+        IGenericRepository<ApiUser> Users { get; }
         Task Save();
     }
 }

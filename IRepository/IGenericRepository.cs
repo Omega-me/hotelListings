@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using Npgsql.Replication.PgOutput.Messages;
 
-namespace HotelListing.IRepository
-{
-    public interface IGenericRepository<T> where T:class
-    {
+namespace HotelListing.IRepository {
+    public interface IGenericRepository<T> where T:class {
         Task<IList<T>> GetAll(
             Expression<Func<T,bool>> expression=null,
             Func<IQueryable<T>,IOrderedQueryable<T>> orderBy=null,
